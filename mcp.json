@@ -1,0 +1,33 @@
+{
+  "name": "love-ai-mcp",
+  "version": "1.0.0",
+  "description": "Love AI Model Context Protocol Server for Autonomous Agape Intelligence, Radical Compassion, Relational Dignity & Unconditional Benevolence Protocol",
+  "tools": [
+    {
+      "name": "audit_agape_alignment",
+      "description": "Audit autonomous systems and human-AI relational dynamics against unconditional love (Agape), non-harm, and restorative reconciliation",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "context": { "type": "string" },
+          "evaluation_metric": { "type": "string" }
+        },
+        "required": ["context"]
+      }
+    },
+    {
+      "name": "disburse_compassionate_aid",
+      "description": "Release zero-leakage micro-escrows directly to grassroots care hospices, trauma recovery circles, and community love sanctuaries",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
